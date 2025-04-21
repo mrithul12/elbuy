@@ -34,7 +34,7 @@
     height: 50vh;
   }
   .banner {
-    height: 200vh;
+    
     flex-direction: column;
   }
 }
