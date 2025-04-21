@@ -1,0 +1,39 @@
+.banner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+.banner-img img {
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner-content p {
+  font-size: clamp(29px, 7vw, 48px);
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+.banner-button {
+  text-align: center;
+}
+.banner-button button {
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #3f7d58;
+  width: 100px;
+  color: #fff;
+}
+@media only screen and (max-width: 769px) {
+  .banner-img img {
+    width: 100vw;
+  }
+  .banner {
+    height: 200vh;
+    flex-direction: column;
+  }
+}

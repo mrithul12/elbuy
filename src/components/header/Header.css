@@ -1,0 +1,129 @@
+/* .header {
+  width: 100vw;
+  font-size: small;
+  top: -5px;
+  position: fixed;
+  z-index: 10;
+  background-color: #3f7d58;
+  padding: 15px;
+  font-weight: 600;
+
+}
+
+.header-logo h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+.search-bar {
+ background-color: #fff;
+  border-radius: 5px;
+
+}
+.search-bar input {
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+.header-login button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100px;
+  color:black;
+}
+.header-toggle-list{
+  right: 0;
+  top: 0px;
+  background-color: #3f7d58;
+  width: 70%;
+  height: 100vh;
+  padding: 10px;
+ 
+
+}
+.header-toggle-list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header-toggle-list ul li{
+  cursor: pointer;
+}
+@media only screen and (max-width: 769px) {
+  .header-left {
+    width: 100%;
+  }
+  .header-right {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+  }
+} */
+.header {
+  background-color: #3f7d58;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo-name h2 {
+  color: #ffff;
+  font-weight: 700;
+}
+.header-search {
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+.header-search input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+}
+.header-button button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 60px;
+  padding: 5px;
+}
+.header-button a {
+  color: #ffff;
+}
+.header-list ul li a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffff;
+  text-decoration: none;
+}
+.header-list ul .active {
+  color: rgb(193, 187, 187);
+  text-decoration: none;
+}
+.header-cart a {
+  color: #ffff;
+}
+.header-toggle-bar {
+ color: #ffff;
+}
+.header-toggle-list {
+  background-color: #3f7d58;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100vh;
+  padding: 10px;
+  color: #ffff;
+  font-size: 14px;
+}.header-toggle-list ul li a{
+  color: #ffff;
+  text-decoration: none;
+}
