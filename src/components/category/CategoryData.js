@@ -1,35 +1,43 @@
-import grains from '../../asset/grains.jpg'
-import dryFruits from '../../asset/dryfruits.jpg'
-import oils from '../../asset/oils.jpg'
-import spices from '../../asset/spices.jpg'
-import veg from '../../asset/veg.jpg'
+import diary from '../../asset/icon/dairy-products.png'
+import fruits from '../../asset/icon/fruitss.png'
+import packed from '../../asset/icon/instant-noodles.png'
+import drinks from '../../asset/icon/soft-drink.png'
+import stationary from '../../asset/icon/stationary.png'
+import vegitables  from '../../asset/icon/vegetables.png'
 
 const CategoryData = [
     {
         id:1,
-        title:"Grains",
-        image:grains
+        title:"Vegitables",
+        image:vegitables,
+        description:"organic products"
     },
     {
        id:2,
-       title:"Dry Fruits",
-       image:dryFruits,
+       title:"Fruits",
+       image:fruits,
+       description:"organic products"
     },
     {
         id:3,
-        title:"Oils",
-        image:oils,
+        title:"Stationary",
+        image:stationary,
      },
      {
         id:4,
-        title:"Spices",
-        image:spices,
+        title:"Drinks",
+        image:drinks,
      },
      {
         id:5,
-        title:"Vegitables",
-        image:veg,
-     }
+        title:"packed",
+        image:packed,
+     },
+     {
+      id:6,
+      title:"diary",
+      image:diary,
+   }
    
 
 ]

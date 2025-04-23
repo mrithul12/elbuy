@@ -3,3 +3,40 @@
 }.reviews-heading h2{
     font-weight: 700;
 }
+.review-image img{
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 0 0px 10px ;
+}
+.revies-card{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.reviw{
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+.revies-title h2{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.revies-description{
+    font-size: 15px;
+}
+.revie-burron button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #3f7d58;
+    padding: 5px;
+    color: #fff;
+}
+.revies-description p{
+    font-family:serif;
+}

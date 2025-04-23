@@ -1,0 +1,49 @@
+ .featured-image img{
+ width: 170px;
+ height: 160PX;
+ object-fit: fill;
+ border-radius: 20px 0 20px 0;
+
+}
+.featured{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+} 
+.hero{
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+ .featured-button button{
+    outline: none;
+    border: none;
+    background-color: #1A5D1A;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .featur-heading h1{
+ color:#06D001;
+ font-weight: 500;
+ }
+
+ .featured-category span{
+    background-color: #FFEB00;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .fatured-price p{
+    color: #06D001;
+    font-weight: 700;
+ }

@@ -1,10 +1,11 @@
 import React from 'react'
 import './About.css'
+import Blog from '../blog/Blog'
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about pt-5'>
         
-        this is about
+       <Blog/>
     </div>
   )
 }

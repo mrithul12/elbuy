@@ -1,0 +1,10 @@
+
+  
+  .card h2 {
+    font-weight: 600;
+    color: #333;
+  }
+  .card{
+    box-shadow:1px 7px 3px 1px rgba(0, 0, 0, 0.8);
+  }
+  

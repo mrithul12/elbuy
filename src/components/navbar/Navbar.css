@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #dbedfa;
+    height: 20vh;
+
+}
+.navbar img{
+    width: 30px;
+}
+.navbar p{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: small;
+}.navbar h2{
+    font-weight: 900;
+    font-family: cursive;
+}

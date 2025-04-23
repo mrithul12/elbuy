@@ -1,0 +1,25 @@
+.section{
+    background-color: #06D001;
+    min-height: 70vh;
+    width: 100%;
+    font-family: cursive;
+}
+.section-content{
+    width: 50%;
+    text-align: start;
+}
+.section-image{
+    width: 50%;
+}
+.section-image img{
+    width: 60%;
+}
+.section-content button{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}

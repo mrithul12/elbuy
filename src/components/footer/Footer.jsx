@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 const Footer = () => {
   return (
-    <div className='footer-container d-flex justify-content-between'>
+    <div className='footer-container d-flex justify-content-center gap-5'>
         <div className="footer-list">
             <h3>Costomer service</h3>
             <ul>

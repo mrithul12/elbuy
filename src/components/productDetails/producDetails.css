@@ -1,0 +1,13 @@
+.product-detail {
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-detail:hover {
+    transform: scale(1.02);
+  }
+  
+  .product-information h2 {
+    font-weight: 600;
+  }
+  
